@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    justify-content: stretch;
+}
+
+/* big container of text */
+.container {
+    display: inline-block;
+    padding: 20px;
+    width: auto;
+    color:darkolivegreen;
+}
+
+/*  container of CV, the 2 parts */
+.cv-container {
+    display: inline-block;
+    padding: 20px;
+    width: 850px;
+    height: 1200px;
+    background-image: url("../../assets/img/dark.jpg");
+}
+
+.left-container {
+    display: inline-block;
+}
+
+.task-container {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid greenyellow;
+    width: auto;
+    vertical-align: top;
+}
+
+.avatar-container {
+    vertical-align: middle; 
+    border: 10px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: drop-shadow(16px 16px 20px rgb(2, 24, 2));
+    margin-bottom: -45px;
+    
+}
+
+.photo-container {
+    display: inline-block;
+   
+}
+
+.layer-container {
+    display: inline-block;
+    /* padding-bottom: 10px;
+    height: 350px;
+    width: 600px; */
+}
+
+.back-layer {
+    background-color: #1E9E49;
+    /* position: absolute; */
+    width: 300px;
+    height: 370px;
+    border-radius: 0px 25px 25px 0;
+    margin-left: -20px;
+}
+
+.top-layer {
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    margin-top: -320px;
+    margin-left: -20px;
+    border-radius: 0px 25px 25px 0;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: architects-daughter;
+    src: url("../fonts/ArchitectsDaughter-Regular.ttf");
+} 
+
+h1 {
+    font-family: 'architects-daughter', cursive;
+}
+
+.experience-container {
+    display: inline-block;
+    color: white;
+    width: 450px;
+    padding: 10px;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.experience-container li {
+    list-style-type: none;
+}
+
+.experience-container h3 {
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.years-container {
+    
+    width: 130px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
+
+.experience {
+    
+    display: inline-block;
+    width: 300px;
+    box-sizing: border-box;
+    color: white;
+    /* padding: 10px; */
+    vertical-align: middle;
+}
+
+.experience ul {
+    padding-left: 0;
+}
+
+.about-me {
+    padding-top: 50px;
+    color: white;
+    width: 300px;
+}
+
+.about-me  li{
+    list-style-type: none;
+}
+
+.about-me h3{
+    color: #1E9E49;
+}
+
+.fa-birthday-cake .fa-map-marker .fa-phone .fa-envelope .fa-globe {
+    font-size: 24px;
+    color: white;
+
+}
+

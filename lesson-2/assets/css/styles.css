@@ -1,0 +1,49 @@
+.table-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    padding-left: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 1500px;
+  min-width: 1300px;
+  margin-left: auto;
+margin-right: auto;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:first-child {
+  background-color: #676868;
+  color: white;
+  word-wrap: break-word;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+.button {
+  background-color: #fdfffd;
+  border: solid 2px black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-content: center;
+}
+.buy-container {
+  text-align: center;
+}
