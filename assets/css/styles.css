@@ -26,13 +26,102 @@ body {
     display: inline-block;
 }
 
+
+.button {
+    /* width: 150px;
+    height: 150px; */
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10%;
+}
+.social {
+    display: inline-block;
+    padding: 40px;
+    width: 300px;
+
+}
+
+a {
+    width: 200px;
+}
+.git {
+    background-image: url("../img/git.png");
+    background-size: cover;
+    width: 44px;
+    height: 44px;
+
+}
+
+.li {
+    background-image: url("../img/li.png");
+    background-size: cover;
+    margin-left: 15px;
+    width: 44px;
+    height: 44px;
+
+}
 .task-container {
     display: inline-block;
     padding: 20px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     width: auto;
     vertical-align: top;
+    width: 800px;
+    height: 850px;
+    background-image: url("../../assets/img/postit.png");
+    font-family:  architects-daughter;
+    font-size: 20px;
+    font-weight: 600;
 }
+
+.task-container a:visited:hover {
+    color: rgb(8, 98, 155);
+    outline: orangered;
+    font-size: 25px;
+}
+
+.task-container a:link:hover {
+    color: orange;
+    font-size: 22px;
+    outline: orange;
+}
+
+.task-container h3 {
+    padding-top: 150px;
+    text-align: center;
+}
+
+ li.checkmark {
+    /* background: url('../img/black.png') no-repeat left 5px; */
+    /* height: 54px;
+    padding-left: 44px;
+    padding-top: 3px;
+    display: block; */
+    list-style-type: circle;
+    /* background: url("https://techforluddites.com/images/leaf_icon.jpg") no-repeat left top;
+    padding-left: 34px;
+    padding-top: 3px;
+    height: 48px;
+    margin-left: 0;
+    margin-top: 4px;
+    margin-bottom: 0; */
+
+ }
+
+
+/* .task-container li {
+    
+    height: 20px; 
+    
+} */
+
+/* .task-container li ::marker{
+    width: 20px;
+    height: 20px;
+
+} */
 
 .avatar-container {
     vertical-align: middle; 
