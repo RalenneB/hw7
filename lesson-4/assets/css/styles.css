@@ -5,12 +5,32 @@
     color: #2F281E;
 }
 
+.header {
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
 
 .logo-container {
     display: inline-block;
     /* margin-top: 10px; */
     vertical-align: middle;
     padding-left: 40px;
+}
+
+.btns {
+    display: flex;
+}
+
+.btns-first {
+    padding-top: 39px;
+    justify-content: flex-start;
 }
 
 img.logo-container {
@@ -25,25 +45,26 @@ img.logo-container {
 
 .navigation-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
 .navigation {
-    display: inline;
-    font-size: 14px;
-    font-weight: bold;
-    padding-right: 24px;
-    align-content: center;
-    justify-content: right;
+    list-style-type: none;
+    /* display: flex; */
+    justify-content: flex-start;
+    line-height: 28px;
 
 }
 
-.sub-nav {
+.navigation>li {
+    margin-left: 15px;
+}
+/* .sub-nav {
     display: flex;
     align-items: center;
-}
+} */
 
 li {
     display: inline;
@@ -63,9 +84,11 @@ ul {
 p {
     color: #544837;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
-    padding-bottom: 20px;
+    padding: 10px 0;
+    line-height: 28px;
+    font-family: Poppins;
 }
 
 
@@ -105,14 +128,15 @@ img .image-container {
     display: inline-block;
     /* width: 50%; */
     align-content: center;
+    min-width: 45%;
 }
 
 img.img-container {
     display: inline-block;
-    width: 75%;
-    height: 75%;
+    /* width: 75%;
+    height: 75%; */
     
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .cta-buttons {
@@ -146,16 +170,19 @@ h1 {
     color: #173A56;
     font-weight: bold;
     font-size: 44px;
+    line-height: 54px;
+    padding-bottom: 29px;
 
 }
 
 .text-container {
     display: inline-block;
-    width: 532px;
-    height: 324px;
+    max-width: 532px;
+    /* max-height: 324px; */
     vertical-align: middle;
     vertical-align: middle;
     justify-content: center;
+    width: 50%;
 }
 
 .img-container {
@@ -165,12 +192,15 @@ h1 {
     width: 605px;
     height: 496px;
     vertical-align: middle;
+    margin: 30px;
 
 }
 
 .arrow {
     display: inline-block;
     vertical-align: middle;
+    width: 17px;
+    padding-right: 5px;
 }
 .content-container {
     padding: 60px 20px;
@@ -212,16 +242,18 @@ h2 {
     font-size: 16px;
     line-height: 26px;
     width: 240px;
-    /* height: 178px; */
     color: #544837;
 }
-.tests {
+.tests, .tests-p {
     display: flex;
     flex-direction: row;
     justify-content: center ;
-    align-items: center;
     align-content: center;
-    text-align: center;
+    padding: 50px;
+}
+
+.tests img {
+    padding-bottom: 30px;
 }
 
 .tests ul {
@@ -246,3 +278,88 @@ h2 {
     font-size: 16px;
     line-height: 24px;
 }
+
+.design-pro {
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 30px;
+}
+
+.design-pro img.img-container {
+    width: auto;
+    height: auto;
+}
+
+.padding-text {
+    padding-left: 40px;
+}
+
+.design-pro h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.icon {
+    flex-wrap: wrap;
+    margin-right: 27px;
+
+}
+
+.icon-paragraph {
+    display: flex;
+    align-items: center;
+
+}
+
+footer   {
+    padding-top: 150px;
+    border-top: 1px solid #BCD0E57F; 
+    margin: 140px
+}
+
+footer .navigation-container {
+    justify-content: space-around;
+}
+
+footer .cta-sign {
+    /* padding: 10px; */
+    width: 131px;
+    height: 42px;
+    text-transform: capitalize;
+    
+}
+
+footer .cta-buttons-2 {
+    justify-content: flex-start;
+}
+
+.bottom-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 35px;
+    padding-right: 120px;
+}
+
+.footer-items {
+    display: flex;
+    
+}
+
+form {
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 325px;
+    height: 51px;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+  }
