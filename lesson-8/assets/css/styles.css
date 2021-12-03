@@ -1,0 +1,104 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-image: url("../img/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  padding: 20px;
+  width: 1440px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7ff;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 430px;
+  height: 620px;
+  border-radius: 20px;
+  background-color: white;
+}
+.container__image {
+  width: 430px;
+  border-radius: 20px 20px 0 0;
+}
+.container__content {
+  width: 4 px;
+  text-align: center;
+}
+.container__content h1 {
+  font-weight: 900;
+  font-size: 25px;
+  padding-top: 30px;
+  color: #1f2f56;
+}
+.container__content p {
+  padding: 25px;
+  color: #7280a7;
+}
+.container__plan {
+  display: flex;
+  width: 350px;
+  background-color: #f5f7ff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  align-items: center;
+}
+.container__plan--item {
+  justify-content: flex-start;
+  flex-grow: 1.5;
+  padding-left: 10px;
+  font-weight: 900;
+}
+.container__plan--item h3 {
+  color: #7280a7;
+}
+.container a {
+  font-weight: bolder;
+}
+.container a:hover {
+  color: #7280a7;
+  text-decoration: none;
+}
+.container__buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px;
+  align-items: center;
+}
+.container__buttons .btn-cta {
+  width: 350px;
+  height: 50px;
+  color: white;
+  background-color: #3829e0;
+  border-style: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px 0 rgba(56, 41, 224, 0.2), 0 16px 20px 0 rgba(56, 41, 224, 0.2);
+}
+.container__buttons .btn-cancel {
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: transparent;
+  color: #7280a7;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.container__buttons .btn-cta:hover {
+  background-color: #6e63e9;
+  cursor: pointer;
+}
+.container__buttons .btn-cancel:hover {
+  color: #1f2f56;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
