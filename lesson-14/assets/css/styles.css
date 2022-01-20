@@ -1,0 +1,155 @@
+body {
+  font-family: "AvenirNext";
+  background-color: #E5E5E5;
+  color: #212353;
+}
+
+.screen {
+  background-color: #E5E5E5;
+}
+.screen .offer_container {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.screen .offer_container__text {
+  height: 7rem;
+}
+.screen .offer_container__text--title {
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.screen .offer_container__text--description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #4B5D68;
+  padding-top: 1.2rem;
+  font-family: "AvenirNext";
+}
+.screen .offer_container__text--buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.screen .offer_container .button {
+  display: flex;
+  border-radius: 50px;
+  min-width: 210px;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 28.8px;
+  border: none;
+}
+.screen .offer_container .learn {
+  background-color: #F063B8;
+  color: white;
+  width: 170px;
+}
+.screen .offer_container .demo {
+  background-color: white;
+  color: #212353;
+  margin: 2rem;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+.screen .offer_container .arrow {
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  color: #9C69E2;
+  font-size: 30px;
+  padding-left: 0.2rem;
+}
+.screen .footer_container {
+  padding-top: 8rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+.screen .warehouse_container {
+  padding-top: 8rem;
+  justify-content: space-between;
+}
+.screen .warehouse_container__data--title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  align-items: center;
+}
+.screen .warehouse_container__data--address {
+  padding-top: 1.5rem;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+.screen .warehouse_container__data--electronic {
+  padding-top: 1.5rem;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+.screen .warehouse_container__data img {
+  display: flex;
+}
+.screen .warehouse_container .about_container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+.screen .warehouse_container .about_container__elem {
+  display: flex;
+  flex-direction: column;
+}
+.screen .warehouse_container .about_container a {
+  text-decoration: none;
+  color: #212353;
+  padding: 0.5rem 0;
+}
+.screen .warehouse_container .warehouse-title {
+  padding-top: 1.2rem;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 25.6px;
+  padding-bottom: 1.5rem;
+  align-self: flex-start;
+  align-items: center;
+}
+.screen .warehouse_container .help_container {
+  display: flex;
+  flex-direction: column;
+}
+.screen .warehouse_container .help_container__elem {
+  display: flex;
+  flex-direction: column;
+}
+.screen .warehouse_container .help_container a {
+  text-decoration: none;
+  color: #212353;
+  padding: 0.5rem 0;
+}
+.screen .warehouse_container .sm_container {
+  display: flex;
+  flex-direction: column;
+}
+.screen .warehouse_container .sm_container__icons {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 0;
+}
+.screen .warehouse_container .sm_container .icon {
+  width: 70px;
+  padding: 0.5rem;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url("../../../lesson-9/assets/fonts/AvenirNextLTPro-Regular.otf");
+}
+
+/*# sourceMappingURL=styles.css.map */
